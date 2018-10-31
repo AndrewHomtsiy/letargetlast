@@ -1,0 +1,596 @@
+@media screen and (max-width: 1366px)
+{
+  #fourth .col-md-4 {
+    margin: 0px 0px;
+    padding: 0px;
+}
+h1.top44 {
+    margin-top: 5px;
+}
+form{
+  height: 380px;
+}
+.modal-content {
+    top: 100px;}
+
+input[type="submit"] {
+    border: none;
+    background: #ffc107;
+    font-size: 15px;
+    font-family: Mantserrat;
+    padding: 17px 0px;
+    color: white;
+    top: 50px;
+    width: 200px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    position: relative;
+}
+select#posluga {
+    position: relative;
+    top: 0px;
+    height: 50px;
+}
+label.select {
+    position: relative;
+    top: -5px;
+    text-align: center;
+    color: #424242;
+    font-family: Montserrat;
+    margin-bottom: .5rem;
+}
+input#Number {
+    top: -30px;
+    position: relative;
+}
+input#fname {
+    position: relative;
+    top: -60px !important;
+}
+a.slidesjs-next.slidesjs-navigation {
+    color: black;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    left: 84%;
+    font-size: 25px;
+    border: 2px solid #ffeb3b;
+    width: 7%;
+}
+  .container {
+    padding: 0px
+    max-width: 1183px !important;
+}
+
+  .topnav a {
+    padding: 0px 10px;
+  }
+.slidesjs-container {
+    height: 516px !important;
+}
+div#myTopnav {
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 0px;
+    padding-top: 58px;
+    padding-left: 220px;
+    width: 100%;
+}
+
+  @media screen and (max-width: 1225px){
+img.slidesjs-slide {
+    margin-top: 43px;
+}
+
+#fourth .col-md-8 {
+    width: 888px;}
+
+    .col-md-4 {
+    width: 335px;
+}
+
+.rowcontainer {
+    font-family: Montserrat;
+    width: 425px;
+}
+section#last .Send {
+
+    width: 60%;}
+    .columncontiner {
+    display: inline-flex;
+}
+section#last form {
+    width: 262px;}
+a.slidesjs-next.slidesjs-navigation {
+    color: black;
+    position: relative;
+    top: 10px;
+    padding: 6px;
+    left: 84%;
+    font-size: 25px;
+    border: 2px solid #ffeb3b;
+    width: 9%;
+}
+.topnav a {
+    padding: 0px 10px;
+  }
+
+div#myTopnav {
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 0px;
+    padding-top: 58px;
+    padding-left: 220px;
+    width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+
+    .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+.f-nav{
+    display: none !important;
+}
+  a.numbers img {
+    position: relative;
+    right: 20px;
+    top: 5px;
+}
+  a.numbers span {
+    display: inline-flex;
+    line-height: 18px;
+} 
+
+.topnav a {
+    float: left;
+    display: block;
+    padding: 5px 25px;}
+
+  div#myTopnav{
+    padding-left: 0px;
+  }
+  a.active {
+    display: none;
+}
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+div#myTopnav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+
+
+
+
+
+  .text-container {
+    width: auto;
+     height: 288px;
+    padding: 50px 0px 50px 0px;
+}
+.text-container span{
+    font-size: 29px;
+}
+
+
+
+section.firstphoto {
+    background-size: cover;
+    height: 812px;
+}
+.columncontiner .col-md-4:nth-child(2) {
+    margin: 0px 4px;
+}
+.columncontiner {
+    flex-direction: column;
+}
+.columncontiner .col-md-4 {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 235px;
+    padding: 0px 51px;
+    margin: 15px 0px;
+}
+
+.poslygi h1 {
+    margin-bottom: 0px;
+    padding-top: 35px;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+.poslygi h5 {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    color: #424242;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+.rowcontainer{
+  width: auto;
+}
+.rowsecond h1 {
+    margin-bottom: 0px;
+    font-family: Montserrat;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+  }
+  .rowsecond {
+    width: 320px;
+    margin: 28px 0px 23px 0px;
+}
+
+.rowthird {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    height: 436px;
+    width: 325px;
+  }
+  .col-text {
+    margin: 0px 10px;
+    width: 100%;
+    height: 100%;
+}
+.col-photocontainer {
+    display: none;
+}
+#thrird {
+    padding-top: 35px;
+}
+#fourth .col-md-4 {
+    display: none;
+}.aboutroom {
+    margin-left: 0px;}
+    #fourth {
+    width: 375px;
+    height: 574px;
+    margin-top: 150px;
+  }
+ .containerbidhyki {
+    width: 340px;
+    margin-top: 25px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container1 {
+  width: 340px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.container1 img {
+    width: auto;
+    height: auto;
+}
+.container1 h5 {
+      font-family: Montserrat;
+    width: auto; 
+     height: auto; 
+    margin: 0px; 
+    writing-mode: inherit;
+    transform: none;
+    font-weight: 600;
+    text-align: center;
+ }
+ .texwidhuk {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.lastbox {
+    padding: 26px 15px 29px 29px;
+    position: relative;
+    top: 45px;
+    width: 345px;
+    height: 467px;
+    background-color: #ffeb3b;
+}
+.col-vidhuk{
+  padding: 0px;
+}
+h5.bottomyellow {
+    font-family: Montserrat;
+}
+.bottomyellow {
+    border-bottom: 2px solid #ffeb3b;
+    width: 96%;
+}
+#sixth {
+    width: 100%;
+    height: 577px;
+    margin-top: 178px;
+  }
+
+.lastbox p {
+    font-family: Montserrat;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 286px;
+    height: 158px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.57px;
+}
+a.contact{
+  top: 100px;
+}
+footer .row{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    text-align: center;
+}
+#last {
+    padding-top: 0px;}
+}
+#last .col h1 {
+    width: 303px;
+    height: 29px;
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 115.31px;
+  }
+    footer.form-control {
+
+    display: block;
+    width: 100%;
+    height: 50px !important;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0px !important;}
+    footer form {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px 0px;
+    width: 355px;
+    height: 211px;
+    position: relative;
+    top: -46px;
+}
+.form-group {
+    width: 60%;
+}
+button.btn.btn-primary {
+    position: relative;
+    top: 23px;
+    height: 51px;
+    width: 35%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1d2124 !important ;
+    border-color: black !important;
+    border-radius: 0px;
+}
+section#last form {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 20px 0px;
+    width: 304px;
+    height: 211px;
+    position: relative;
+    top: -46px;
+}
+
+.copyright{
+      display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+.form-group {
+    padding-top: 40px;
+    width: 325px;
+    display: inline-flex;
+    margin-bottom: 1rem;
+}
+footer .container {
+    padding: 0px;
+}
+
+section#last input#Number {
+    top: 0;
+    width: 100%;
+    position: relative;
+}
+  section.firstphoto {
+    width: auto;}
+.topnav a.icon {
+    display: flex;
+    position: relative;
+    left: 145px;
+    top: -60px;
+}
+
+    input#fname {
+    position: relative;
+    top: 14px !important;
+}
+input#Number {
+    top: -103px;
+    position: relative;
+}
+select#posluga {
+    position: relative;
+    top: -20px;}
+    input, select {
+    border: 1px solid black;
+}
+#last .col h3 {
+    padding-bottom: 10px;}
+div#myTopnav {
+  height: 60px;
+    padding-top: 0px;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+div#myTopnav.responsive {
+  text-transform: 1.5s;
+    height: auto  ;
+}
+div#myTopnav i {
+    transition: 1.5s ;
+}
+.slideInDown {
+    animation-name: slideInRight;
+}
+section#fourth .container {
+    width: auto;
+}
+a.active {
+    display: none;
+}
+a.numbers {
+    margin-left: 0px;
+}
+a.numbers span {
+    bottom: -3px;
+    left: 24px;
+    position: absolute;
+    font-size: 18px;
+    display: inline-flex;
+    line-height: 20px;
+    color: black;
+
+}
+.columncontiner {
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+a.numbers img {
+    position: relative;
+    right: 36px;
+    top: 5px;
+}
+
+.topnav a{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.topspusok {
+    padding-top: 59px;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    left: 275px;
+    top: 0px;
+}
+.modal-content {
+    margin: 0px 10px;
+    width: 355px;
+    height: 390px;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    border: 2px solid #424242;
+}
+form {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 295px;
+    height: 310px;
+    margin: 10px 10px;
+}
+input[type="submit"] {
+    border: none;
+    background: #ffc107;
+    font-size: 15px;
+    font-family: Materespot;
+    padding: 17px;
+    position: relative;
+    top: 28px;
+    width: 200px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+label.select {
+    position: relative;
+    top: -18px;}
+
+.copyright .container {
+    display: inline-flex;
+    justify-content: center;
+}
+#last .container .row {
+    display: inline-flex;
+    justify-content: center;
+}
+#last .col {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 250px;
+}
+.rowcontainer {
+    font-family: Montserrat;
+    width: auto;
+}
+#last{
+  height: auto;
+}
+#last .container .row .col:first-child {
+    height: 140px;
+}
+.col {
+    font-family: Montserrat;
+}
+.container{
+  font-family: Montserrat;
+}
+#last .container .row {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#fourth .col-md-8{
+  width: 100%;
+}
+#fourth .col-md-8 .container{
+  width: 375px !important;
+}

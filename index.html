@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test letarget</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<body>
+<header>
+      <div class="topnav" id="myTopnav">
+        <div class="topspusok animated slideInRight">
+        <a href="#" class="active">Головна</a>
+        <a href="#" >Орендарям</a>
+        <a href="#" >Орендодавцям</a>
+        <a href="#">Про нас</a>
+        <a href="#" >Контакти</a>
+        <a class="numbers animated slideInRight"><img src="./img/phone.png" alt=""><span>+380980955687 <br> +380630260643</span></a>
+         </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i><svg class="ham hamRotate ham7" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+  <path
+        class="line top"
+        d="m 70,33 h -40 c 0,0 -6,1.368796 -6,8.5 0,7.131204 6,8.5013 6,8.5013 l 20,-0.0013" />
+  <path
+        class="line middle"
+        d="m 70,50 h -40" />
+  <path
+        class="line bottom"
+        d="m 69.575405,67.073826 h -40 c -5.592752,0 -6.873604,-9.348582 1.371031,-9.348582 8.244634,0 19.053564,21.797129 19.053564,12.274756 l 0,-40" />
+</svg></i>
+        </a>
+      </div>
+</header>
+<section id="banner">
+  <div class="popup">
+        <button id="myBtn">Найміть нас</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+             <span class="close">&times;</span>
+               <div class="column animation slideInRight">
+                  <form action="/action_page.php">
+                      <input type="text" id="fname" name="firstname" placeholder="Ваше ім'я">
+                      <input type="numbers" id="Number" name="lastname" placeholder="Ваш номер телефону">
+                      <label class="select">Оберіть послугу</label>
+                      <select id="posluga" name="posluga" placeholder="Оберіть послугу">
+                        <option value="sale">Продаж житла</option>
+                        <option value="rent">Оренда житла</option>
+                        <option value="buy">Покупка житла</option>
+                      </select>
+                      <input type="submit" value="Відправити">
+                  </form>
+                </div>
+          </div>
+        </div> 
+    </div>
+    <div class="container">
+      <div class="text-container">
+        <span id="typed-text"></span>
+      </div>
+    </div>
+  </section>
+  <section class="firstphoto" style="background-image: url(img/apartment1.jpg);">
+  <div class="container">
+    <div class="columncontiner ">
+      <div class="col-md-4 ">
+        <div class="poslygi ">
+          <h5>Гарантія якості</h5>
+          <h1>Оренда <span class="arrow"><img src="img/left-arrow.svg"></span></h1>
+          <a  href="youtube.com" class="getposlug">Замовити</a>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="poslygi">
+          <h5 style="color:white;"">Велика база</h5>
+          <h1>Купівля <span class="arrow"><img src="img/right-arrow-white.svg" ></span></h1>
+          <a href="#" class="getposlug" style="border-color:white;color: white;">Замовити</a>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="poslygi">
+          <h5 >Всебічна допомога супровід</h5>
+          <h1 class="top44">Продаж<span class="arrow"><img src="img/left-arrow.svg"></span></h1>
+          <a  href="#" class="getposlug">Замовити</a>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+<section id="thrird">
+<div class="container">
+    <div class="row">
+      <div class="col-text">
+        <div class="rowcontainer">
+        <div class="rowfirst">
+         <h5 class="bottomyellow">Ваш ексклюзивний ріелтор</h5>
+        </div>
+      <div class="rowsecond">
+       <h1>Вся нерухомість Львова за 30 хв</h1>
+     </div>
+     <div class="rowthird">
+      <p>Ваш ексклюзивний ріелтор це новинка на ринку нерухомості. 
+        Компанія надає вам ексклюзивного ріелтора, який працює лише з 
+          вами і забовязується в розумні терміни підшукати вам підходяще 
+        житло,( або ж його продати чи здати в оренду) При цьому нічого не 
+        оплачуючи. Таку функцію можна узгодити в двох напрямках. Перший 
+        можна скласти договір в письмовій формі. Другий можна узгодини 
+        все в усній формі ( В Людських відносинах). Це гарантія того, що цей 
+        ріелтор буде заповнений роботою виключно з вами, це значно 
+        полекшить вам пошуки житла або ж потенційних клієнтів і не потрібно 
+        буде звонити до десятків різних агенств і чути від них пропозиції, які
+        абсолютно не підходять вашим вимогам.</p>
+        <a class="readmore" href="#">Читати більше</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-photocontainer">
+      <div class="photo"></div>
+    </div>
+  </div>
+  </section>
+
+  <section id="fourth">
+      <div class="col-md-8">
+        <div class="container">
+          <div class="aboutroom">
+            <h5>300$</h5>
+            <h3>Затишна 2 кімнатна 
+                квартирау центрі 
+                   львова</h3>
+          </div>
+      </div>
+    </div>
+      <div class="col-md-4">
+ <div id="slides">
+      <img src="img/home4.jpg" alt="">
+      <img src="img/home4.jpg" alt="">
+      <img src="img/home4.jpg" alt="">
+      <img src="img/home4.jpg" alt="">
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i></a></div>
+    </div>
+  </div>
+
+</div>
+  </section>
+     <section id="fifth">
+    <div class="container">
+      <div class="zagolobokvidhyki">
+        <h5 class="bottomyellow">відгуки</h5>
+        <h3>Про нас говорять</h3>
+      </div>
+      <div class="containerbidhyki">
+          <div class="col-vidhuk">
+            <div class="container1">               
+              <h5>Валентин 45 років, бізнесмен</h5>
+               <img src="img/vidhuk1.jpg">
+          </div>
+          <div class="texwidhuk">
+          <h4>Дуже дякую агенству домлер, за 
+швидку та якісну роботу</h4></div>
+          </div>
+         <div class="col-vidhuk">
+            <div class="container1"> 
+             <h5>Іра 22 роки, студентка</h5>
+             <img src="img/vidhuk2.jpg">
+            </div>
+            <div class="texwidhuk">
+          <h4>дуже довго не могли знайти
+житло, а Ігор вирішив всі наші 
+проблеми за один день</h4>
+</div>
+          </div>
+          </div>
+  </div>
+      </div>
+    </div>
+  </section>
+   <section id="sixth" style=" background: url(img/home6.jpg);">
+    <div class="container">
+      <div class="lastbox">
+        <h3>Ми Допоможемо Вам
+знайти житло вашої мрії</h3>
+<p>Вам потрібно зняти квартиру у Львові? 
+Агентство нерухомості «Domler» допоможе 
+вибрати квартиру у відповідністі з вашими 
+вимогами і візьме на себе пошук і оформлення 
+договору оренди. Перегляд квартир з нашим 
+ріелтором буде у зручний для вас час. Фахівці 
+агентства допоможуть вам зняти житло у 
+Львові .</p>
+    <a class="contact" href="#">Найняти нас</a>
+      </div>
+    </div>
+  </section>
+   <section id="last">
+      <div class="container">
+       <div class="row">
+          <div class="col">
+            <h1 style="text-align:center;">Logo</h1>
+          </div>
+          <div class="col">
+            <h3>Карта сайту</h3>
+            <ul class="Kartasaity">
+              <li><a href="#">Головна</a></li>
+              <li><a href="#">Орендодавцям</a></li>
+              <li><a href="#">Орендарям</a></li>
+              <li><a href="#">Про Нас</a></li>
+              <li><a href="#">Контакти</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Контакти</h3>
+             <ul class="Kartasaity">
+              <li> <span>info@domler.com.ua</span></li>
+              <li><span>+38098 09 55 687<br>
+                  +38063 026 06 43 (Viber)<br>
+                    +38099 763 98 82<br></span></li>
+              <li><span>Вул. Лазаренка 2 офіс 217 
+( 3 поверх)</span></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Підписатись на оновлення</h3>
+            <p>У нас завжди цікаво!</p>
+            <form>
+  <div class="form-group">
+    <input type="numbers" id="Number" name="lastname" placeholder="info@domler.com.ua">
+    <button type="submit" class="Send">Надіслати</button>
+  </form>
+          </div>
+</div>
+      </div>
+      </section>
+       <footer>
+         <div class="copyright">
+          <div class="container">
+           <span>Developed by <a href=""> Letarget</a></span>
+         </div>
+         </div>
+       </footer>
+
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+       <script type="text/javascript">
+         jQuery("document").ready(function($){
+
+  var nav = $('.topnav');
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 306) {
+      nav.addClass("f-nav");
+    } else {
+      nav.removeClass("f-nav");
+    }
+  });
+
+});
+       </script>
+<script type="text/javascript">
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<script>var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script src="js/typed.js"></script>
+<script>
+  var typed2 = new Typed('#typed-text', {
+    strings: ['ПРИДБАЄМО НЕРУХОМІСТЬ У БУДЬ-ЯКІЙ  ЧАСТИНІ ЛЬВОВА.'],
+    typeSpeed: 30,
+    backSpeed: 10,
+    stop: 0,
+    fadeOut: true,
+    loop: false,
+        onComplete: function(self) { }
+  });
+</script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+
+
+<script>
+   $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false,
+        start: 3,
+        play: {
+          auto: false
+        }
+      });
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+new WOW().init();
+</script>
+</body>
+</html>
